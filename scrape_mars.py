@@ -21,9 +21,9 @@
     "## Scraping\n",
     "\n",
     "\n",
-    "def scrape_all():\n",
-    "\n",
-    "    # Initiate headless driver for deployment\n",
+    "    def scrape_all():\n",
+    
+    "    # Start driver \n",
     "    executable_path = {\"executable_path\": \"chromedriver\"}\n",
     "    \n",
     "    browser = Browser(\"chrome\", executable_path, headless = False)\n",
@@ -184,14 +184,14 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count"
    "metadata": {},
    "outputs": [],
    "source": []
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count"
    "metadata": {},
    "outputs": [],
    "source": []
